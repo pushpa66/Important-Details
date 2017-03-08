@@ -45,12 +45,16 @@ ios api key = AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM
 android api key = AIzaSyCGT-8Du3SwJCfdC7aNFqPheR_WTEv_dX0
 
 cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="YOUR_ANDROID_API_KEY_IS_HERE" --variable API_KEY_FOR_IOS="YOUR_IOS_API_KEY_IS_HERE"
-cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyAA4W4Ka9mm1DDbDlhr8EwgprX3nZV1m4Y" --variable API_KEY_FOR_IOS="AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM"
+cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyCGT-8Du3SwJCfdC7aNFqPheR_WTEv_dX0" --variable API_KEY_FOR_IOS="AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM"
 
 if we got an error
 
 cordova plugin rm cordova-plugin-googlemaps
 cordova plugin rm com.googlemaps.ios
-cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyAA4W4Ka9mm1DDbDlhr8EwgprX3nZV1m4Y" --variable API_KEY_FOR_IOS="AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM"
+cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyCGT-8Du3SwJCfdC7aNFqPheR_WTEv_dX0" --variable API_KEY_FOR_IOS="AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM"
 
 then again api key command
+
+
+
+cordova plugin add cordova-plugin-locationservices
