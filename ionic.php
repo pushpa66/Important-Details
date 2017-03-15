@@ -58,3 +58,18 @@ then again api key command
 
 
 cordova plugin add cordova-plugin-locationservices
+
+
+
+
+
+
+
+console.log problem
+
+Change in the package.json file:
+Replace: "ionic:serve": "ionic-app-scripts serve"
+With: "ionic:watch": "ionic-app-scripts watch"
+
+
+cordova plugin add cordova-plugin-network-information
