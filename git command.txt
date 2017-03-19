@@ -1,0 +1,11 @@
+// create a branch
+git checkout -b {branch name}
+
+// go to a branch
+git checkout {branch name}
+
+// merge with branches
+git merge {branch name}
+
+// merge with master branch
+git rebase master

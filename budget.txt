@@ -1,0 +1,7 @@
+
+android customer app
+	googlemap implimentation
+	verification via sms and email
+	gps base metering
+	driver tracking via server
+	send notification for close by drivers( mechansm for uniquely identify apps)

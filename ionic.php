@@ -45,7 +45,7 @@ ios api key = AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM
 android api key = AIzaSyCGT-8Du3SwJCfdC7aNFqPheR_WTEv_dX0
 
 cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="YOUR_ANDROID_API_KEY_IS_HERE" --variable API_KEY_FOR_IOS="YOUR_IOS_API_KEY_IS_HERE"
-cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyCGT-8Du3SwJCfdC7aNFqPheR_WTEv_dX0" --variable API_KEY_FOR_IOS="AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM"
+cordova plugin add https://github.com/mapsplugin/cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyCGT-8Du3SwJCfdC7aNFqPheR_WTEv_dX0" --variable API_KEY_FOR_IOS="AIzaSyBtNs7id4I-CZX3_cPFUqCU3aJ04_pELiM" --save
 
 if we got an error
 

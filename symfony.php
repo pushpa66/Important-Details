@@ -17,6 +17,7 @@ services:
 php app/console doctrine:schema:update --force
 
 //update enity from exsisting database
+php app/console doctrine:mapping:import --force AppBundle xml
 php app/console doctrine:mapping:convert annotation ./src
 
 // validate
