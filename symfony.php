@@ -2,8 +2,26 @@
 
 composer create-project symfony/framework-standard-edition my_project_name "2.8.*"
 
-
-
+composer require symfony/asset
+composer require symfony/browser-kit
+composer require symfony/cache
+composer require symfony/class-loader
+composer require symfony/config
+composer require symfony/console
+composer require symfony/css-selector
+composer require symfony/debug
+composer require symfony/dependency-injection
+composer require symfony/dotenv
+composer require symfony/dom-crawler
+composer require symfony/event-dispatcher
+composer require symfony/expression-language
+composer require symfony/filesystem
+composer require symfony/finder
+composer require symfony/form
+composer require symfony/security-guard
+composer require symfony/http-foundation
+composer require symfony/http-kernel
+composer require symfony/intl
 
 
 services:
